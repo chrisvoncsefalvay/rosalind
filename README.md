@@ -16,12 +16,12 @@ python3 dna.py
 
 | ID | Title | File link | Rosalind link |
 |----|-------|-----------|---------------|
-| DNA | Counting DNA Nucleotides | [dna.py](dna.py) | [rosalind.info](http://rosalind.info/problems/dna/) |
-| RNA | Transcribing DNA into RNA | [rna.py](rna.py) | [rosalind.info](http://rosalind.info/problems/rna/) |
-| REVC | Complementing a Strand of DNA | [revc.py](revc.py) | [rosalind.info](http://rosalind.info/problems/revc/) |
-| HAMM | Counting Point Mutations | [hamm.py](hamm.py) | [rosalind.info](http://rosalind.info/problems/hamm/) |
-| PERM | Enumerating Gene Orders | [perm.py](perm.py) | [rosalind.info](http://rosalind.info/problems/perm/) |
-| LEXF | Enumerating k-mers Lexicographically | [lexf.py](lexf.py) | [rosalind.info](http://rosalind.info/problems/lexf/) |
+| DNA | Counting DNA Nucleotides | [dna.py](DNA.py) | [rosalind.info](http://rosalind.info/problems/dna/) |
+| RNA | Transcribing DNA into RNA | [rna.py](RNA.py) | [rosalind.info](http://rosalind.info/problems/rna/) |
+| REVC | Complementing a Strand of DNA | [revc.py](REVC.py) | [rosalind.info](http://rosalind.info/problems/revc/) |
+| HAMM | Counting Point Mutations | [hamm.py](HAMM.py) | [rosalind.info](http://rosalind.info/problems/hamm/) |
+| PERM | Enumerating Gene Orders | [perm.py](PERM.py) | [rosalind.info](http://rosalind.info/problems/perm/) |
+| LEXF | Enumerating k-mers Lexicographically | [lexf.py](LEXF.py) | [rosalind.info](http://rosalind.info/problems/lexf/) |
 
 
 ## License
