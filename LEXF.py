@@ -2,15 +2,12 @@
 # http://rosalind.info/problems/lexf/
 
 from itertools import product
+from utils.harness import RosalindProblem
 
-def lexicographic_product(alphabet: str, length: int) -> list:
+def lexicographic_product(alphabet: str, length: str) -> list:
     """Returns the lexicographic product of alphabet and itself length times."""
-    return list(product(alphabet, repeat=length))
+    return [''.join(i) for i in product(alphabet.split(" "), repeat=int(length))]
 
-# create a text file output
-with open("lexf.txt", "w") as output_file:
-    alphabet = "A B C D E F G H".split()
-    perms = lexicographic_product(alphabet, 3)
-    for perm in perms:
-        output_file.write("".join(perm) + "\n")
 
+h = RosalindProblem(lexicographic_product, "rosalind_lexf.txt")
+h.process()
