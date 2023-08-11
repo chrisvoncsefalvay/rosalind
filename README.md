@@ -14,14 +14,17 @@ python3 dna.py
 
 ## Table of contents
 
-| ID | Title | File link | Rosalind link |
-|----|-------|-----------|---------------|
-| DNA | Counting DNA Nucleotides | [dna.py](DNA.py) | [rosalind.info](http://rosalind.info/problems/dna/) |
-| RNA | Transcribing DNA into RNA | [rna.py](RNA.py) | [rosalind.info](http://rosalind.info/problems/rna/) |
-| REVC | Complementing a Strand of DNA | [revc.py](REVC.py) | [rosalind.info](http://rosalind.info/problems/revc/) |
-| HAMM | Counting Point Mutations | [hamm.py](HAMM.py) | [rosalind.info](http://rosalind.info/problems/hamm/) |
-| PERM | Enumerating Gene Orders | [perm.py](PERM.py) | [rosalind.info](http://rosalind.info/problems/perm/) |
-| LEXF | Enumerating k-mers Lexicographically | [lexf.py](LEXF.py) | [rosalind.info](http://rosalind.info/problems/lexf/) |
+| ID | Title | Script | Rosalind.info link |
+| --- | --- | --- | --- |
+| DNA | Counting DNA Nucleotides | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/DNA.py) | [Rosalind.info](https://rosalind.info/problems/dna/) |
+| RNA | Transcribing DNA into RNA | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/RNA.py) | [Rosalind.info](https://rosalind.info/problems/rna/) |
+| REVC | Complementing a Strand of DNA | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/REVC.py) | [Rosalind.info](https://rosalind.info/problems/revc/) |
+| GC | Computing GC Content | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/GC.py) | [Rosalind.info](https://rosalind.info/problems/gc/) |
+| HAMM | Counting Point Mutations | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/HAMM.py) | [Rosalind.info](https://rosalind.info/problems/hamm/) |
+| SUBS | Finding a Motif in DNA | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/SUBS.py) | [Rosalind.info](https://rosalind.info/problems/subs/) |
+| PERM | Enumerating Gene Orders | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/PERM.py) | [Rosalind.info](https://rosalind.info/problems/perm/) |
+| LEXF | Enumerating k-mers Lexicographically | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/LEXF.py) | [Rosalind.info](https://rosalind.info/problems/lexf/) |
+| LEXV | Ordering Strings of Varying Length Lexicographically | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/LEXV.py) | [Rosalind.info](https://rosalind.info/problems/lexv/) |
 
 
 ## License
