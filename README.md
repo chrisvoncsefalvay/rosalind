@@ -9,8 +9,11 @@ Each problem has its own file. The file is named after the problem ID. For examp
 Each file is a standalone program. It can be run with the following command:
 
 ```bash
-python3 dna.py
+python3 DNA.py
 ```
+
+It takes as its input the Rosalind download, which would be called `rosalind_dna.txt` in this case. The file is expected to be in the same directory as the script. It returns a directly uploadable response with the suffix "_solution", i.e. in this case, `dna_solution.txt`.
+
 
 ## Table of contents
 
