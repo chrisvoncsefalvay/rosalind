@@ -1,5 +1,12 @@
 class RosalindProblem:
-    """Harness for running a Rosalind problem."""
+    """
+    Constructor for RosalindProblem class.
+
+    Args:
+        func (function): The function to be called.
+        input_file (str): The input file name.
+        fasta (bool, optional): Indicates if the input file is in FASTA format. Defaults to False.
+    """
     def __init__(self, func, input_file, fasta=False):
         self.func = func
         self.fasta = fasta
