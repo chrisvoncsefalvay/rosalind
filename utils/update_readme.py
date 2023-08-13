@@ -37,11 +37,12 @@ def filter_for_implemented_problems(problems_dict: dict) -> dict:
 
 def render_markdown_table(problems_dict: dict) -> str:
     """Render a markdown table from the problems dictionary."""
-    markdown_table = "| ID | Title | Script | Rosalind.info link |\n| --- | --- | --- | --- |\n"
+    markdown_table = "<!-- toc -->\n| ID | Title | Script | Rosalind.info link |\n| --- | --- | --- | --- |\n"
     for key, value in problems_dict.items():
         github_link = f"[script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/{key}.py)"
         rosalind_link = f"[Rosalind.info](https://rosalind.info/problems/{key.lower()}/)"
         markdown_table += f"| {key} | {value} | {github_link} | {rosalind_link} |\n"
+    markdown_table += "<!-- tocstop -->"
 
     return markdown_table
 
