@@ -1,0 +1,1 @@
+from .codon_tables import CODON_TABLE
