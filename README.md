@@ -28,6 +28,7 @@ It takes as its input the Rosalind download, which would be called `rosalind_dna
 | HAMM | Counting Point Mutations | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/HAMM.py) | [Rosalind.info](https://rosalind.info/problems/hamm/) |
 | PROT | Translating RNA into Protein | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/PROT.py) | [Rosalind.info](https://rosalind.info/problems/prot/) |
 | SUBS | Finding a Motif in DNA | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/SUBS.py) | [Rosalind.info](https://rosalind.info/problems/subs/) |
+| CONS | Consensus and Profile | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/CONS.py) | [Rosalind.info](https://rosalind.info/problems/cons/) |
 | MRNA | Inferring mRNA from Protein | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/MRNA.py) | [Rosalind.info](https://rosalind.info/problems/mrna/) |
 | PERM | Enumerating Gene Orders | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/PERM.py) | [Rosalind.info](https://rosalind.info/problems/perm/) |
 | PRTM | Calculating Protein Mass | [script](https://github.com/chrisvoncsefalvay/rosalind/blob/main/PRTM.py) | [Rosalind.info](https://rosalind.info/problems/prtm/) |
