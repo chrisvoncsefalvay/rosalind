@@ -19,7 +19,16 @@ class RosalindProblem:
             arguments = []
 
             if self.fasta:
-                arguments = [infile.read()]
+                # Parse FASTA strings
+                sequence = ""
+                for line in infile:
+                    if line.startswith(">"):
+                        if sequence:
+                            arguments.append(sequence)
+                            sequence = ""
+                    else:
+                        sequence += line.strip()
+                arguments.append(sequence)
             else:
                 for line in infile:
                     arguments.append(line.strip())
